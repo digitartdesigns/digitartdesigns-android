@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id = "com.digitartdesignsltd.digitartdesignsltd"
-        version = "2.2.0">
+        version = "2.2.2">
     <name>Digit Art Designs Ltd.</name>
     <description>
         App powered by Digit Art Designs Ltd.
@@ -11,11 +11,12 @@
         Digit Art Designs Ltd. Team
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
+	<preference name="phonegap-version" value="3.5.0" />
 	<preference name="splash-screen-duration" value="5000" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
-	<icon src="images/icon.png" gap:platform="android" gap:density="hdpi" gap:role="default" />
+	<icon src="icon.png" gap:platform="android" gap:density="hdpi" gap:role="default" />
 	<gap:splash src="images/screen-portrait.png" gap:platform="android" gap:density="xhdpi" />
 	<access origin="*" />
 </widget>
